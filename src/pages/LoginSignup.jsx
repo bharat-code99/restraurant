@@ -38,7 +38,7 @@ const LoginSignup = () => {
             <input onChange={handlePassChange} value={pass} className='placeholder:text-gray-500 text-gray-700 focus:outline-none' type="text" placeholder='Enter Password'/>
           </div>
           {(formContent === 'login') && <div className='text-gray-700'>
-            Forget Password? <a className='text-purple-700' href="#">Click here</a>
+            Forget Pasdfghsword? <a className='text-purple-700' href="#">Click here</a>
           </div>}
           <button className='cursor-pointer bg-purple-700 text-white py-2 w-full font-semibold rounded-full'>{formContent === "signup" ? "Sign Up" : "Login"}</button>
         </div>
